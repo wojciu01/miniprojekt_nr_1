@@ -47,7 +47,7 @@ pip install -r requirements.txt
        chmod +x geckodriver*
        ```
 
-#How to run
+How to run
 ```
   export PATH=$PATH:$(pwd)
   python auto_search.py
