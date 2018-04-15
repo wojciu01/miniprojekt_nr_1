@@ -1,5 +1,7 @@
 # Sprawdzenie wyszukiwania na stronie https://www.olx.pl
+
 Przypadek testowy nr 1: Sprawdzenie poprawności tutułu na stronie
+
 Przypadek testowy nr 2: Wyszukanie ofert pracy na stanowisko QA w miejscowości Przemyśl
 
 Kroki:
