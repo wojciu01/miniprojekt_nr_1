@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 valid_job = 'QA'
-valid_city = 'Przemyśl'
+valid_city = u'Przemyśl'
 
 class OLXsearch(unittest.TestCase):
 
@@ -18,7 +18,7 @@ class OLXsearch(unittest.TestCase):
     def test_tytul(self):
         title = self.driver.title
         print(title)
-        assert title == 'Ogłoszenia - Sprzedam, kupię na OLX.pl'
+        assert title == u'Ogłoszenia - Sprzedam, kupię na OLX.pl'
 
     def test_search_job(self):
         choose_job = self.driver.find_element_by_xpath('//a[@data-id="4" and @class="link parent   "]')
